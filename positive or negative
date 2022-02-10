@@ -1,0 +1,14 @@
+a=int(input("enter a number"))
+if a>0 :
+    print("given number is POSITIVE")
+else :
+    print("given number is NEGATIVE")
+    
+OUTPUT:
+enter a number -3
+given number is NEGATIVE
+enter a number 55
+given number is POSITIVE
+
+
+    
