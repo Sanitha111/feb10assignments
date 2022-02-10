@@ -1,0 +1,20 @@
+sno=int(input("enter student num:"))
+name=input("enter student name:")
+group=input("enter student group:")
+s1=int(input("enter maths marks:"))
+s2=int(input("enter physics marks:"))
+s3=int(input("enter computrer science marks:"))
+s4=int(input("enter telugu marks:"))
+s5=int(input("enter analytical skills marks:"))
+s6=int(input("enter english marks:"))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print("pass")
+else:
+    print("fail")
+    
+ OUTPUT:
+enter telugu marks:65
+enter analytical skills marks:60
+enter english marks:59
+pass
+
